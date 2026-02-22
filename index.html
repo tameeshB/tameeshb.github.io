@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Tameesh Biswas — Minimal Landing Page</title>
-  <meta name="description" content="Minimal professional landing page. No personal photos. Links, work, writing, and contact." />
+  <title>Tameesh Biswas — Building Claro</title>
+  <meta name="description" content="Tameesh Biswas — Co-Founder at Claro. NLP research, large-scale engineering, selected work, and contact links." />
 
   <style>
     :root{
@@ -27,6 +27,18 @@
       margin: 0;
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
       color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
+      letter-spacing: -0.01em;
+      position: relative;
+    }
+
+    body::before{
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
       background:
         radial-gradient(900px 600px at 22% 18%, rgba(99,102,241,0.35), transparent 60%),
         radial-gradient(900px 600px at 78% 22%, rgba(34,197,94,0.18), transparent 55%),
@@ -389,7 +401,7 @@
         <div class="mark" aria-hidden="true">TB</div>
         <div>
           <h1>Tameesh Biswas</h1>
-          <p>Co‑Founder &amp; CTO · AI/NLP · Data platforms · Security OSS</p>
+          <p>Building Claro • CS, IIT Patna · Berlin</p>
         </div>
       </div>
 
@@ -404,11 +416,11 @@
     <section class="hero" aria-label="Hero">
       <div class="heroGrid">
         <div>
-          <div class="kicker"><span class="dot" aria-hidden="true"></span><span>Minimal, no photos</span></div>
-          <h2 class="headline">Building reliable AI systems on top of messy real‑world data.</h2>
+          <div class="kicker"><span class="dot" aria-hidden="true"></span><span>Co-Founder at Claro · Berlin</span></div>
+          <h2 class="headline">Enabling businesses to deploy explainable intelligence with confidence at scale.</h2>
           <p class="subhead">
-            Co‑Founder &amp; CTO at Claro AI. Background in AI/NLP, data-heavy platforms, and security-focused open source.
-            This page is intentionally lightweight: quick facts, selected work, and outbound links.
+            Contributions in NLP research (Computational Linguistics, MIT Press), plus engineering experience across Yelp, Autodesk, and open-source security work.
+            This page mirrors key profile highlights, selected work, and public links.
           </p>
 
           <div class="ctaRow" aria-label="Calls to action">
@@ -436,26 +448,24 @@
           </div>
 
           <div class="pillRow" aria-label="Focus tags">
-            <span class="pill">AI/NLP</span>
-            <span class="pill">Small language models</span>
-            <span class="pill">Data platforms</span>
-            <span class="pill">Security / crypto OSS</span>
-            <span class="pill">Open-source</span>
+            <span class="pill">Start-up Ventures</span>
+            <span class="pill">Engineering</span>
+            <span class="pill">Natural Language Processing (NLP)</span>
           </div>
         </div>
 
         <aside class="card" aria-label="At a glance" id="about">
           <h2>At a glance</h2>
           <div class="kv">
-            <div class="row"><span>Now</span><span>Co‑Founder &amp; CTO, Claro AI</span></div>
-            <div class="row"><span>Based</span><span>Germany (Hamburg/Berlin)</span></div>
-            <div class="row"><span>Previously</span><span>Yelp · Autodesk</span></div>
-            <div class="row"><span>Education</span><span>CSE · IIT Patna</span></div>
-            <div class="row"><span>Notable OSS</span><span>Drupal zero‑knowledge encryption (GSoC)</span></div>
+            <div class="row"><span>Now</span><span>Co‑Founder, Claro (Oct 2023 — Present)</span></div>
+            <div class="row"><span>Location</span><span>Berlin, Germany</span></div>
+            <div class="row"><span>Experience</span><span>Yelp · Autodesk · Drupal OSS</span></div>
+            <div class="row"><span>Education</span><span>B.Tech, CSE · IIT Patna</span></div>
+            <div class="row"><span>Publication</span><span>Novelty Detection (Computational Linguistics, MIT Press)</span></div>
           </div>
 
           <p class="muted" style="margin:12px 2px 0; font-size:13px;">
-            No personal photos here by design. Replace any text above to match your preferred public positioning.
+            Languages: English (Full Professional), German (Elementary), Hindi & Bengali (Native/Bilingual).
           </p>
         </aside>
       </div>
@@ -467,7 +477,6 @@
         <p class="muted" style="margin:0 0 12px;">
           A small set of representative projects and references. Each card links out to the canonical source.
         </p>
-
         <div class="workGrid">
           <article class="work">
             <div class="top">
@@ -482,50 +491,6 @@
 
           <article class="work">
             <div class="top">
-              <h4>Client‑side file encryption (GSoC)</h4>
-              <span class="tag">Security · OSS</span>
-            </div>
-            <p>
-              Drupal module implementing a zero‑knowledge approach using front‑end JavaScript encryption for sensitive uploads.
-            </p>
-            <a href="https://github.com/tameeshb/client-side-file-encrypt-gsoc" target="_blank" rel="noopener">View repository →</a>
-          </article>
-
-          <article class="work">
-            <div class="top">
-              <h4>sockChat</h4>
-              <span class="tag">E2E · Prototype</span>
-            </div>
-            <p>
-              End‑to‑end encrypted, decentralized chat experiment.
-            </p>
-            <a href="https://github.com/tameeshb/sockChat" target="_blank" rel="noopener">View repository →</a>
-          </article>
-
-          <article class="work">
-            <div class="top">
-              <h4>e‑Voting</h4>
-              <span class="tag">Django · Privacy</span>
-            </div>
-            <p>
-              Anonymous polling app with a simple UX, designed to address privacy/integrity goals.
-            </p>
-            <a href="https://github.com/tameeshb/e-Voting" target="_blank" rel="noopener">View repository →</a>
-          </article>
-
-          <article class="work">
-            <div class="top">
-              <h4>GitHub sidebar fix</h4>
-              <span class="tag">Utility</span>
-            </div>
-            <p>
-              Small browser extension that adjusts GitHub UI layout behavior.
-            </p>
-            <a href="https://github.com/tameeshb/github-sidebar-fix" target="_blank" rel="noopener">View repository →</a>
-          </article>
-
-          <article class="work">
-            <div class="top">
               <h4>Research credit</h4>
               <span class="tag">NLP</span>
             </div>
@@ -534,50 +499,63 @@
             </p>
             <a href="https://www.iitp.ac.in/~ai-nlp-ml/pubjour.html" target="_blank" rel="noopener">View listing →</a>
           </article>
+
+          <article class="work">
+            <div class="top">
+              <h4>Client‑side file encryption (GSoC)</h4>
+              <span class="tag">Security · OSS</span>
+            </div>
+            <p>
+              Drupal module implementing a zero‑knowledge approach using front‑end JavaScript encryption for sensitive uploads.
+            </p>
+            <a href="https://github.com/tameeshb/client-side-file-encrypt-gsoc" target="_blank" rel="noopener">View repository →</a>
+          </article>
         </div>
       </section>
-
       <section class="block" aria-label="Writing and talks" id="writing">
         <h3>Writing &amp; talks</h3>
+        <p class="muted" style="margin:0 0 10px;">
+          A few public artifacts that reflect long-term interests in security, open source, and applied AI.
+        </p>
+        <ul class="list">
+          <li class="item">
+            <div class="meta">Talk · FOSSASIA Summit 2018</div>
+            <div><strong>Client‑side encryption &amp; zero‑knowledge cryptosystem in JavaScript</strong></div>
+            <a href="https://2018.fossasia.org/event/tracks.html" target="_blank" rel="noopener">Program page →</a>
+          </li>
+
+          <li class="item">
+            <div class="meta">Writing · Medium</div>
+            <div><strong>GSoC ’17: community bonding and weekly updates</strong></div>
+            <a href="https://medium.com/tameeshb/gsoc-17-community-bonding-period-wrap-up-dfbf6c67f415" target="_blank" rel="noopener">Read post →</a>
+          </li>
+
+          <li class="item">
+            <div class="meta">Startup · Speaking</div>
+            <div><strong>Pitch contest / Tech Open Air (Berlin)</strong></div>
+            <a href="https://www.linkedin.com/posts/tameeshb_wrapped-up-round-2-of-the-pitch-contest-activity-7204677358904094720-4Jpc" target="_blank" rel="noopener">LinkedIn post →</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="block" aria-label="Profile highlights">
+        <h3>Profile highlights</h3>
         <div class="grid2">
-          <div>
-            <p class="muted" style="margin:0 0 10px;">
-              A few public artifacts that reflect long-term interests in security, open source, and applied AI.
-            </p>
-            <ul class="list">
-              <li class="item">
-                <div class="meta">Talk · FOSSASIA Summit 2018</div>
-                <div><strong>Client‑side encryption &amp; zero‑knowledge cryptosystem in JavaScript</strong></div>
-                <a href="https://2018.fossasia.org/event/tracks.html" target="_blank" rel="noopener">Program page →</a>
-              </li>
-
-              <li class="item">
-                <div class="meta">Writing · Medium</div>
-                <div><strong>GSoC ’17: community bonding and weekly updates</strong></div>
-                <a href="https://medium.com/tameeshb/gsoc-17-community-bonding-period-wrap-up-dfbf6c67f415" target="_blank" rel="noopener">Read post →</a>
-              </li>
-
-              <li class="item">
-                <div class="meta">Startup · Speaking</div>
-                <div><strong>Pitch contest / Tech Open Air (Berlin)</strong></div>
-                <a href="https://www.linkedin.com/posts/tameeshb_wrapped-up-round-2-of-the-pitch-contest-activity-7204677358904094720-4Jpc" target="_blank" rel="noopener">LinkedIn post →</a>
-              </li>
+          <div class="card">
+            <h2>Experience snapshot</h2>
+            <ul class="list" style="margin-top:10px;">
+              <li class="item"><div><strong>Claro</strong> · Co-Founder (2023 — Present)</div></li>
+              <li class="item"><div><strong>Yelp</strong> · Senior Software Engineer, Data Partnerships (2020 — 2023)</div></li>
+              <li class="item"><div><strong>AI-NLP-ML Lab, IIT Patna</strong> · NLP Research (2019 — 2021)</div></li>
+              <li class="item"><div><strong>Autodesk</strong> · Software Engineering Intern, Fusion 360 (2018)</div></li>
             </ul>
           </div>
-
-          <div class="card" aria-label="What this page is">
-            <h2>What this page is</h2>
-            <p class="muted" style="margin:0;">
-              A minimal, fast-loading landing page with <em>no personal images</em>. It’s designed to point to canonical public sources.
-              If you want a version optimized for hiring or consulting, expand this section into a “services” block and add a short case-study section.
-            </p>
-
-            <div class="pillRow" style="margin-top:12px;">
-              <span class="pill">No JavaScript</span>
-              <span class="pill">No external fonts</span>
-              <span class="pill">Single HTML file</span>
-              <span class="pill">Responsive</span>
-            </div>
+          <div class="card">
+            <h2>Publications</h2>
+            <ul class="list" style="margin-top:10px;">
+              <li class="item"><div><strong>Leveraging Multi Premise Inference for Document Level Novelty Detection</strong></div></li>
+              <li class="item"><div><strong>Novelty Detection: A Perspective from Natural Language Processing</strong></div></li>
+            </ul>
           </div>
         </div>
       </section>
@@ -585,7 +563,7 @@
       <section class="block" aria-label="Links and contact" id="contact">
         <h3>Links</h3>
         <p class="muted" style="margin:0 0 12px;">
-          Replace or trim these to your preferred set. Keep it sparse for a “minimal” feel.
+          Contact and public profile links aligned with LinkedIn.
         </p>
 
         <div class="grid2">
@@ -611,23 +589,21 @@
           </div>
 
           <div class="card">
-            <h2>Optional</h2>
+            <h2>Contact</h2>
             <ul class="list" style="margin-top:10px;">
+              <li class="item">
+                <div><strong>Email</strong></div>
+                <div class="muted">Primary contact</div>
+                <a href="mailto:tameesh@getclaro.ai">tameesh@getclaro.ai →</a>
+              </li>
               <li class="item">
                 <div><strong>Medium</strong></div>
                 <div class="muted">Writing archive</div>
                 <a href="https://medium.com/tameeshb" target="_blank" rel="noopener">medium.com/tameeshb →</a>
               </li>
               <li class="item">
-                <div><strong>Drupal.org</strong></div>
-                <div class="muted">Open-source community profile</div>
-                <a href="https://www.drupal.org/u/tameeshb" target="_blank" rel="noopener">drupal.org/u/tameeshb →</a>
-              </li>
-              <li class="item">
-                <div><strong>Contact</strong></div>
-                <div class="muted">Use a role email or contact form endpoint (avoid personal phone/address)</div>
-                <!-- TODO: Replace with your preferred public contact -->
-                <a href="mailto:hello@yourdomain.example">hello@yourdomain.example →</a>
+                <div><strong>Honors</strong></div>
+                <div class="muted">Bronze – International Informatics Olympiad · First Place – Inter College CTF</div>
               </li>
             </ul>
           </div>
